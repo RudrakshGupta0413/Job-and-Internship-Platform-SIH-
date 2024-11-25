@@ -1,0 +1,81 @@
+/* General container styling */
+.job-description-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    padding: 20px 60px;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    /* max-width: 800px; */
+    margin: 0 auto;
+}
+
+/* Tabs styling */
+.Jobtabs {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.Jobtabs button {
+    background: none;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #555;
+    /* border-bottom: 3px solid transparent; */
+    /* transition: color 0.3s, border-bottom 0.3s; */
+}
+
+.Jobtabs button.active {
+    color: #6C63FF;
+    font-weight: bold;
+    /* border-bottom: 3px solid #6C63FF; */
+}
+
+.Jobtabs button:hover {
+    color: #6C63FF;
+}
+
+/* Content section */
+.tab-content {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.tab-content h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.tab-content p, .tab-content ul {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.tab-content ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.tab-content ul li {
+    margin-bottom: 8px;
+}
+
+.vision-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two images per row */
+    gap: 16px; /* Space between images */
+    margin-top: 16px;
+}
+
+.vision-images img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    object-fit: cover; /* Ensures images are cropped nicely */
+}

@@ -1,0 +1,25 @@
+.featured-jobs {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .job-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center; /* Center the grid horizontally */
+    max-width: 1200px; /* Set a maximum width for the grid container */
+    margin: 0 auto; /* Center the container on the page */
+    padding: 0 20px; /* Add padding for responsiveness */
+  }
+  
+  .view-all {
+    color: #6200ea;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .view-all:hover {
+    text-decoration: underline;
+  }
+  

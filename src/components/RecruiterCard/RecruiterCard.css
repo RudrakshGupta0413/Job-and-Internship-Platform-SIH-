@@ -1,0 +1,101 @@
+.recruiter-card {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 16px 0;
+    margin-bottom: 16px;
+    text-align: center;
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.recruiter-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.recruiter-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+    object-fit: cover;
+}
+
+.recruiter-main h3 {
+    font-weight: 500;
+}
+
+.recruiter-middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.recruiter-middle button {
+    background-color: #ece4ff;
+    border-radius: 20px;
+    padding: 5px 18px;
+    border: 1px solid transparent;
+    color: #6200be;
+}
+
+.recruiter-below {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding: 15px 0 15px 30px;
+}
+
+.recruiter-below p {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.recruiter-below .position {
+    color: #555;
+}
+
+.recruiter-card hr {
+    width: 100%;
+    color: #ebebeb;
+    opacity: 0.3;
+}
+
+.recruiter-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.recruiter-actions .message {
+    background-color: #6200be;
+    color: #fff;
+    border: 1px solid #6200be;
+    padding: 10px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.recruiter-actions .contact {
+    background-color: #ffffff;
+    color: #6200be;
+    border: 1px solid #6200be;
+    padding: 10px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.recruiter-actions button:hover {
+    background-color: #5750d8;
+}

@@ -1,0 +1,39 @@
+.job-search-bar {
+  display: flex;
+  gap: 10px;
+  margin: 40px 0;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 95%;
+}
+
+.job-search-bar hr {
+  height: 2rem;
+}
+
+.input-one {
+  padding: 10px 15px;
+  border: none;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  flex: 1;
+}
+
+.job-search-bar input::placeholder {
+  font-size: 1.2rem;
+}
+
+/* .job-search-bar .input-one {
+    width: 20%;
+} */
+
+.job-search-bar button {
+  padding: 0 40px;
+  background-color: #6300B3;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}

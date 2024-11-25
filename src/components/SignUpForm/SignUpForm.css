@@ -1,0 +1,169 @@
+/* Basic styling */
+.signup-container {
+  position: fixed;
+  top: 0;
+  right: -50%;
+  width: 50%;
+  height: 100vh;
+  background-color: #ffffff;
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
+  transition: right 0.4s ease;
+  display: flex;
+  display: none;
+  flex-direction: column;
+  padding: 40px;
+  overflow-y: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-container.visible {
+  right: 0;
+  display: flex;
+}
+
+.back-btn {
+  border: none;
+  color: #492f72;
+  font-size: 3rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 60px;
+  left: 150px; 
+  padding-bottom: 15px;
+  background-color: #be96fd;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  display: flex;
+}
+
+.back-btn:hover {
+  background-color: #9242ff;
+}
+
+.upper-cnt h2 {
+  font-size: 2rem;
+  color: #333333;
+}
+
+.upper-cnt p {
+  font-size: 1rem;
+  color: #666666;
+}
+
+.upper-cnt p a {
+  color: #a36bff;
+  text-decoration: none;
+}
+
+.upper-cnt .types {
+  padding: 10px 15px;
+  background-color: #fff;
+  border: 1px solid #000;
+
+}
+
+.upper-cnt .types:hover {
+  cursor: pointer;
+  background-color: #ebebeb;
+}
+
+.top-container {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  /* margin: 0 30px; */
+}
+
+.upper-cnt {
+  align-items: center;
+  text-align: left;
+}
+
+.signup-form {
+  width: 80%;
+  margin: 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  padding-left: 130px;
+}
+
+.signup-form .form-heading {
+  font-size: 1.5em; /* Increase the size of h3 */
+  text-align: left; 
+  align-items: left;
+  justify-content: left;
+  margin-bottom: 20px; /* Add some space below the heading */
+  color: #333; /* Adjust color if needed */
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  width: 80%;
+}
+
+.signup-form input {
+  width: 75%;
+  padding: 15px;
+  margin: 15px  0;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #a36bff;
+}
+
+.create-account-btn {
+  background-color: #a36bff;
+  color: #ffffff;
+  padding: 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 15px 0;
+}
+
+.create-account-btn span {
+  margin-left: 5px;
+}
+
+/* Additional styling */
+.create-account-btn:hover {
+  background-color: #9242ff;
+}
+
+input[type="password"] {
+  position: relative;
+}
+
+.terms-condition {
+  font-size: 14px;
+  justify-content: left;
+  text-align: left;
+}
+
+.terms-condition a {
+  color: #7a42ff;
+}
+
+.terms-condition input {
+  width: 20px;
+  padding: 5px;
+}

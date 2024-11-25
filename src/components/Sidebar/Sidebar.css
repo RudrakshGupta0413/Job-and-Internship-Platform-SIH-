@@ -1,0 +1,70 @@
+/* Sidebar.css */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Shadow on the left */
+    transform: translateX(100%); /* Initially off-screen to the right */
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.sidebar.open {
+    transform: translateX(0); /* Slide in from the right */
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #7f00ff;
+    margin-bottom: 20px;
+    cursor: pointer;
+    align-self: flex-end; /* Align close button to the right */
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-menu li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    position: relative;
+}
+
+.sidebar-menu li.active {
+    background-color: #f3e8ff;
+    color: #7f00ff;
+    border-right: 4px solid #7f00ff; /* Border on the right for active item */
+    padding-right: 12px;
+}
+
+.sidebar-menu li .notification-count {
+    background-color: #7f00ff;
+    color: #fff;
+    border-radius: 50%;
+    padding: 3px 8px;
+    font-size: 12px;
+    margin-left: auto;
+}
+
+.logout {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}

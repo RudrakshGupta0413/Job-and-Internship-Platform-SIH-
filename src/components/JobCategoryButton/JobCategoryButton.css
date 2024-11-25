@@ -1,0 +1,23 @@
+.job-category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    max-width: 800px;
+
+  }
+  
+  .category-button {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .category-button:first-child {
+    background-color: #6200ea;
+    color: #fff;
+  }

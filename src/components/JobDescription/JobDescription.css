@@ -1,0 +1,157 @@
+.job-description {
+    width: 100%;
+    padding: 30px 50px;
+    margin-top: 0;
+    background-color: #fdfaff;
+    border-radius: 5px;
+    border-top: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.jobTitleHeader1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jobTitleHeader1 .innerTitle1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.company-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.jobTitleHeader2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.job-title-section {
+    flex: 1;
+}
+
+.job-title-section h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.job-title-section p {
+    margin: 5px 0;
+    color: #000;
+}
+
+.apply-btn {
+    background-color: #6300BE;
+    color: white;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.job-summary .job-info {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    align-items: center;
+}
+
+.job-summary .job-info .info-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-summary .job-info .info-item .icon {
+    color: #7a7a7a;
+    font-size: 20px;
+}
+.job-summary .job-info .info-item  p {
+    color: #7a7a7a;
+    padding: 0 10px 8px 5px;
+}
+.job-summary .additional-info p {
+    font-size: 16px;
+    color: #000;
+    margin: 5px 0;
+    padding: 4px 0;
+}
+
+.descriptionTabs {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-top: 50px;
+}
+
+.descriptionTabs button {
+    padding: 10px 30px 10px 0;
+    background: none;
+    border: none;
+    color: #555;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+.descriptionTabs button.active {
+    color: #7f00ff;
+    border-bottom: 2px solid #7f00ff;
+}
+
+.tab-content {
+    padding: 15px 0;
+}
+
+.tab-content h3 {
+    font-size: 25px;
+    color: #b3b1b1;
+    font-weight: 500;
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+
+.tab-content h4 {
+    font-size: 17px;
+}
+
+.tab-content p {
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.tab-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.tab-content ul li {
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 12px;
+    font-weight: 500;
+}

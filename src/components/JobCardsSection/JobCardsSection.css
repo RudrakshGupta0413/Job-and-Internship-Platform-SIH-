@@ -1,0 +1,14 @@
+.job-cards {
+  width: 60%;
+  max-height: 1600px;
+  overflow-y: auto;
+  padding-right: 20px;
+  /* padding: 15px; */
+  background-color: #fff;
+  border-radius: 8px;
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.job-cards::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,15 @@
+  .landing-page h1 {
+    font-size: 4rem;
+  }
+
+  .landing-page p {
+    font-size: 1.3rem;
+    color: #cfcfcf;
+  }
+  .highlight {
+    color: #6200ea;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 5px 10px;
+  }
+  

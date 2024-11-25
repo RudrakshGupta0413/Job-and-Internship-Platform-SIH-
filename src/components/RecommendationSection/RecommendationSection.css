@@ -1,0 +1,121 @@
+.recommendation-section {
+  width: 95%;
+  max-height: 2000px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  border: none;
+}
+
+.recommendations-container::-webkit-scrollbar {
+  display: none;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 1.3rem 0 0 0;
+}
+
+.tabs button {
+  padding: 12px 40px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.tabs button:hover {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 6px rgba(98, 0, 190, 0.5);
+  color: #6200BE;
+}
+
+.tabs .active {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 6px rgba(98, 0, 190, 0.5);
+  color: #6200BE;
+}
+
+.heading2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.heading2 h2 {
+  font-weight: 500;
+}
+
+.popup-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.popup {
+  position: absolute;
+  top: 680px; /* Position it slightly below the icon */
+  right: 80px; /* Align with the icon's right side */
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  width: 140px;
+  padding: 10px;
+  z-index: 10;
+}
+
+.popup-content {
+  position: relative;
+  padding: 10px;
+}
+
+.close-icon {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: #ebcdfd;
+  border-radius: 50%;
+  padding: 3px;
+  color: #A020F0; /* Purple color to match the close icon in the image */
+}
+
+.popup-option {
+  font-size: 16px;
+  padding: 8px 0;
+  text-align: center;
+  cursor: pointer;
+  color: #333;
+}
+
+.popup-option:hover {
+  background-color: #f7f7f7;
+}
+
+.recommendations-container {
+  overflow-y: auto;
+  padding-left: 2rem;
+}
+.recommendations {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(2000px - 800px);
+  gap: 10px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  /* height: 160px; */
+}
